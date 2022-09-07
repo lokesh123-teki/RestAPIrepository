@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: testrunnerpackage.Testrunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.236 s <<< FAILURE! - in testrunnerpackage.Testrunner
+initializationError(testrunnerpackage.Testrunner)  Time elapsed: 0.027 s  <<< ERROR!
+java.lang.IllegalArgumentException: path must exist: D:\RestApiE2EFramework\src\test\java\featurefile
+
