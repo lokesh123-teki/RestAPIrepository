@@ -75,6 +75,7 @@ public class addPlaceapistepdef extends Utils{
     @Given("^API deletion$")
     public void api_deletion() throws Throwable {
     	request= given().spec(request).body(p.deleteapipayload(place_id_value));
+    	System.out.println("dcjnjscnjncjbocbcbno");
     }
 }
 
