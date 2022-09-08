@@ -70,12 +70,21 @@ public class addPlaceapistepdef extends Utils{
     	String expectedname= getPlaceapi(rout,"name");
     	System.out.println(actualname);
     	System.out.println(expectedname);
-    	assertEquals(actualname, expectedname);	 	
+    	assertEquals(actualname, expectedname);	 
+    	System.out.println("dcjnjscnjncjbocbcbno");
+    	System.out.println("dcjnjscnjncjbocbcbno");
     }
     @Given("^API deletion$")
     public void api_deletion() throws Throwable {
     	request= given().spec(request).body(p.deleteapipayload(place_id_value));
     	System.out.println("dcjnjscnjncjbocbcbno");
+    	
+    	System.out.println("dcjnjscnjncjbocbcbno");
+    	
+    	System.out.println("dcjnjscnjncjbocbcbno");
+    	System.out.println("dcjnjscnjncjbocbcbno");
+    	System.out.println("dcjnjscnjncjbocbcbno");
+    	
     }
 }
 
