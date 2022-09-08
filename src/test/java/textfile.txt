@@ -7,6 +7,3 @@ f
 g
 g
 h
-j
-k
-l
